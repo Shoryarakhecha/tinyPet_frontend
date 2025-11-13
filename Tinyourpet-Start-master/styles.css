@@ -1,0 +1,142 @@
+body{
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+h1 {
+   font-family: 'Montserrat-black, sans-serif';
+   font-size: 3rem;
+   line-height: 1.5;
+   font-weight: 900;
+ }
+ h2{
+   font-size:3rem ;
+   font-family: Montserrat-bold;
+ }
+ h3{
+   color: black;
+   font-size: 50px;
+   font-family: Montserrat-bold;
+ }
+ p{
+   color:grey ;
+ }
+ #title{
+   background-color: #ff4c68;
+   color: white;
+ }
+ .contanier{
+   padding: 3% 15% 7%;
+ }
+ /*--navigation bar--*/
+ .navbar{
+   padding-bottom: 50px;
+ }
+
+ .navbar-brand{
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bolder;
+ }
+ .nav-item{
+   padding: 0 18px;
+ }
+/*download button*/
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+.heading-image{
+  position: absolute;
+  width: 15%;
+  transform: rotate(30deg);
+  right: 30%;
+}
+/*  features section */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.icon{
+  color: red;
+  padding-bottom: 10px;
+}
+.icon:hover{
+  color: purple;
+}
+hr{
+  border-style: groove;
+  margin-top: 0;
+  color: black;
+}
+/* testimonials section*/
+#testimonials{
+  color: white;
+  background-color: #ff4c68;
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+.dog{
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-image{
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+
+}
+/*press section*/
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+/* price table*/
+.header{
+  background-color:pink;
+}
+.card-body{
+  background-color: white;
+}
+@media (max-width:1028px) {
+  .heading-image{
+    position: static;
+    transform:rotate(0);
+
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 40px;
+}
+.abc{
+  margin:3% 1%;
+}
+/*Footer section*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.fotter-logo{
+  margin: 5px;
+  text-align: center;
+}
+.fotter-logo:hover{
+  color: red;
+}
